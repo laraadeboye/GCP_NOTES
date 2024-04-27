@@ -1,6 +1,6 @@
-
-echo USER_2=[PROJECT ID]
-export PROJECT_ID=$(gcloud info --format='value(config.project)')
+#
+    echo USER_2=[PROJECT ID]
+    export PROJECT_ID=$(gcloud info --format='value(config.project)')
 
 1. Create bucket
 #
