@@ -24,6 +24,11 @@
     gsutil acl get gs://$BUCKET_NAME_1/setup.html  > acl3.txt
     cat acl3.txt
 
+Make the Cloud Storage bucket readable by everyone, including unauthenticated users:
+(This is an appropriate setting for hosting public website content in Cloud Storage)
+#
+    gsutil iam ch allUsers:objectViewer gs://$MY_BUCKET_NAME_1
+
 5. Copy file named `setup.html` from bucket to the terminal:
 #
     gcloud storage cp gs://$BUCKET_NAME_1/setup.html setup.html
