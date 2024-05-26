@@ -85,10 +85,10 @@ Copy url of the image from the console and view it in a browser. You will see th
 create an index.html file using the following text. Replace the string `REPLACE_WITH_CAT_URL` with the URL of the cat image from the previous task
 #
     <html><head><title>Cat</title></head>
-<body>
-<h1>Cat</h1>
-<img src="REPLACE_WITH_CAT_URL">
-</body></html>
+    <body>
+    <h1>Cat</h1>
+    <img src="REPLACE_WITH_CAT_URL">
+    </body></html>
 
 7. Copy the index.html file from cloudshell to the vm via scp
 
