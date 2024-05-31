@@ -1,6 +1,8 @@
 
 # Working with terraform on google cloud
 
+As a prerequisite, create project and initialise cloudshell.
+
 We will use terraform to create a network, firewall rules and vms.
 
 Check terraform version.
